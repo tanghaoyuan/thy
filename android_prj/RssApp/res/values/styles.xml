@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="rss_list_style">
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="rss_name_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="rss_about_info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/darkorchid</item>
+        <item name="android:autoLink">all</item>
+    </style>
+</resources>

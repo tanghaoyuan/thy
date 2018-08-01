@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout android:orientation="horizontal"
+    			  android:layout_width="fill_parent"
+                  android:layout_gravity="center_vertical"
+                  android:background="@color/skyblue"
+                  android:layout_height="wrap_content">
+        <TextView android:id="@+id/appTitle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:text="@string/rss_view_list_title"
+                  android:background="@color/skyblue"
+                  android:textColor="@color/black"
+                  android:paddingTop="5px"
+                  android:textSize="20dip" android:layout_weight="10"
+                  android:gravity="center"/>
+        <Button android:id="@+id/searchDialog" android:layout_height="fill_parent"
+                 android:layout_weight="0.6" 
+        	    android:layout_width="wrap_content" android:background="@drawable/rss_search_btn"/>
+    </LinearLayout>
+	
+		<ListView android:id="@+id/rss_listview_read"
+				  style="@style/rss_list_style"
+		 	  	  android:layout_width="fill_parent" 
+		 	  	  android:layout_height="fill_parent"/>
+</LinearLayout>

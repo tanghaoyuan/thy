@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSS阅读器</string>
+    <string name="app_title">RSS阅读管理器</string>
+    <string name="index_btn_txt_rss_add">新增频道</string>
+    <string name="index_btn_txt_rss_m">频道管理</string>
+    <string name="index_btn_txt_rss_show">频道阅读</string>
+    <string name="index_btn_txt_rss_local">我的收藏</string>
+    
+    <!-- 新增页面 -->
+    <string name="rss_add_title">新增频道</string>
+    <string name="rss_add_title_hint">请输入频道的标题...</string>
+    <string name="rss_add_url_hint">请输入频道资源的URL...</string>
+    <string name="rss_add_type_hint">请选择频道资源类别</string>
+    <string name="rss_add_btn_txt">添 加</string>
+    <string name="rss_add_btn_back">返回</string>
+    
+    <string name="rss_btn_search">搜索</string>
+    
+    <string-array name="rss_type_info">
+        <item>Java技术类</item>
+        <item>数据库类</item>
+        <item>Android技术类</item>
+        <item>软件过程和项目管理类</item>
+        <item>非技术类</item>
+        <item>IOS类</item>
+    </string-array>
+    
+    <!-- 查询显示页面 -->
+    <string name="rss_view_list_title">频道列表</string>
+    <string name="rss_view_search_title">请输入搜索关键字...</string>
+    <string name="rss_view_btn_search">搜索</string>
+    
+    <string name="rss_view_content_title">频道内容项</string>
+    
+    <string name="rss_about">关于</string>
+    <string name="rss_exit">退出</string>
+    <string name="loading">正在加载,请稍等...</string>
+</resources>
+

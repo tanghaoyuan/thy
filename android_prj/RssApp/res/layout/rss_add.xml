@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/lavenderblush"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout android:orientation="horizontal"
+    			  android:layout_width="fill_parent"
+                  android:layout_gravity="center"
+                  android:background="@color/skyblue"
+                  android:layout_height="wrap_content">
+        <TextView android:id="@+id/appTitle"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:text="@string/rss_add_title"
+                  android:background="@color/skyblue"
+                  android:textColor="@color/black"
+                  android:paddingTop="5px"
+                  android:textSize="20dip"
+                  android:gravity="center"/>
+    </LinearLayout>
+        <EditText android:id="@+id/addRssTitle" android:layout_height="wrap_content"
+         	  android:layout_marginTop="10dp"
+              android:layout_marginLeft="10dp"
+	    	  android:layout_marginRight="10dp"
+        	  android:layout_width="fill_parent" android:hint="@string/rss_add_title_hint"/>
+    	<EditText android:id="@+id/addRssUrl" android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+	    	  android:layout_marginRight="10dp"
+        	  android:layout_width="fill_parent" android:hint="@string/rss_add_url_hint"/>
+
+	    <Spinner
+	        android:id="@+id/addRssType" 
+	        android:layout_width="fill_parent"
+	        android:entries="@array/rss_type_info"
+	        android:prompt="@string/rss_add_type_hint"
+	        android:layout_height="wrap_content" />
+    
+	    <Button android:id="@+id/btnAddRss" android:layout_gravity="center" android:layout_height="wrap_content"
+	        	android:layout_width="150dp" android:text="@string/rss_add_btn_txt"/>
+        
+</LinearLayout>

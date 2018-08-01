@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal"
+    			  android:layout_width="fill_parent"
+    			  android:gravity="center_vertical"
+    			  android:layout_weight="9"
+    			  android:background="@color/skyblue"
+                  android:layout_height="fill_parent">
+        <TextView android:id="@+id/appTitle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:text="@string/app_title"
+                  android:background="@color/skyblue"
+                  android:textColor="@color/black"
+                  android:paddingTop="5px"
+                  android:textSize="20dip"
+                  android:gravity="center"
+                  android:layout_weight="5"/>
+        <Button android:id="@+id/btn_about" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        		android:background="@drawable/index_about_btn"/>
+    </LinearLayout>
+    <TableLayout android:layout_width="match_parent"
+    			 android:gravity="center"
+    			 android:layout_weight="1"
+    			 android:background="@color/lavenderblush"
+                 android:layout_height="match_parent">
+    	<TableRow android:gravity="center">
+    		<Button android:id="@+id/index_btn_add_rss" 
+    		        android:textSize="24dip" android:height="150px" android:background="@drawable/index_add_btn"
+    		        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    		<Button android:id="@+id/index_btn_m_rss"
+    		        android:textSize="24dip" android:background="@drawable/index_mgr_btn"
+    		        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    	</TableRow>
+    	<TableRow android:gravity="center">
+    		<Button android:id="@+id/index_btn_view_rss"
+    		        android:textSize="24dip" android:height="150px" android:background="@drawable/index_view_btn"
+    		        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    		<Button android:id="@+id/index_btn_local_rss" 
+    		        android:textSize="24dip" android:background="@drawable/index_favorite_btn"
+    		        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    	</TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+1、替换原来用TextView的方式显示RSS条目信息，修改为listview。
+2、改进原来的rss类型 ，用tabhost来替换。
+3、构思RSS内容管理的功能。
+4、

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText android:id="@+id/etSearchTitle"
+			  android:layout_marginTop="5px"
+	          android:layout_width="fill_parent"
+	          android:layout_height="fill_parent"
+	          android:hint="@string/rss_view_search_title"/>
+	<Spinner
+      android:id="@+id/viewRssType" 
+      android:layout_width="match_parent"
+      android:entries="@array/rss_type_info"
+      android:prompt="@string/rss_add_type_hint"
+      android:layout_height="wrap_content" />
+</LinearLayout>
